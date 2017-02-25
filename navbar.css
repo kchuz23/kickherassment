@@ -1,0 +1,9 @@
+.navbar{
+  background-color: #666666;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.active{
+  background-color: #98A3A6;
+}
