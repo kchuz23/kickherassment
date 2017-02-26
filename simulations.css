@@ -1,8 +1,9 @@
-#logo
+#harassmentSim
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  color:#EEFFE9;
+  font-family: header;
 }
 #UnityObject
 {
@@ -14,6 +15,6 @@
 {
   margin-left: 40px;
   padding-bottom: 10px;
-  color:#EEFFE9;
+  color:#86E9BB;
   font-family:header;
 }
