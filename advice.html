@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+		<meta charset="utf-8">
         <title>kickHERassMENt</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="stylesheet" type="text/css" href="advice.css">
+		<script src="advice.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>  $( function() {
+    $( "input" ).checkboxradio();
+  } );</script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -28,6 +36,18 @@
                 </div>
             </div>
         </nav>
-        <h1>This is the advice page.</h1>
+		<div id="sidebar" class="main">
+		<h3>Tags</h3>
+	  <fieldset>
+    <label for="checkbox-1">#Women</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">#LGBT</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">#Minority</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+  </fieldset></div>
+  <div id="main">
+  <p></p></div>
+		
     </body>
 </html>
