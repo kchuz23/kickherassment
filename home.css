@@ -1,1 +1,17 @@
-
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#UnityObject
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#featuredSim
+{
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
