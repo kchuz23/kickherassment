@@ -34,23 +34,21 @@
                 $("#commentList").empty();
                 return false;
             }
-            function incrementLike()
-            {
-              val = document.getElementById("likeValue");
-              val.innerHTML = ' ' + (parseInt(val.innerHTML) + 1);
+            function incrementLike() {
+                val = document.getElementById("likeValue");
+                val.innerHTML = ' ' + (parseInt(val.innerHTML) + 1);
             }
-            function postComment()
-            {
-              commentList = document.getElementById("commentList");
-              commentFrame = document.getElementById("commentFrame");
-              newComment = commentFrame.cloneNode(true);
-              commentList.appendChild(newComment);
-              comment = document.getElementById("comment");
-              user = document.getElementById("user");
-              time = document.getElementById("time");
-              comment.innerHTML = document.getElementById("commentInput").value;
-              user.innerHTML = "anonymous";
-              time.innerHTML = "1 minute ago";
+            function postComment() {
+                commentList = document.getElementById("commentList");
+                commentFrame = document.getElementById("commentFrame");
+                newComment = commentFrame.cloneNode(true);
+                commentList.appendChild(newComment);
+                comment = document.getElementById("comment");
+                user = document.getElementById("user");
+                time = document.getElementById("time");
+                comment.innerHTML = document.getElementById("commentInput").value;
+                user.innerHTML = "anonymous";
+                time.innerHTML = "1 minute ago";
             }
         </script>
     </head>
@@ -109,9 +107,9 @@
                     </div>
                 </div>
                 <h1 id="title">Give Advice</h1>
-                <p id="mainP">View other user's post to gain knowledge or help give advice to others seeking to <b>Kick Harassment</b>.</p>
-                <table id="posts">
-                </table>
+                <p id="mainP">View other user's post to gain knowledge or help give advice to others seeking to
+                    <b>Kick Harassment</b>.</p>
+                <table id="posts"></table>
                 <div class="container" id="post">
                     <div class="col-sm-8">
                         <div class="panel panel-white post panel-shadow">
@@ -130,10 +128,11 @@
                                 </div>
                             </div>
                             <div class="post-description">
-                                <p id="posterQuestion">Can someone please help me come up with a good question to put here???</p>
+                                <p id="posterQuestion">What constitutes harassment??</p>
                                 <div class="stats">
                                     <a href="#" class="btn btn-default stat-item" onclick="incrementLike();">
-                                        <i class="fa fa-thumbs-up icon" id="likeValue"> 2</i>
+                                        <i class="fa fa-thumbs-up icon" id="likeValue">
+                                            2</i>
                                     </a>
                                 </div>
                             </div>
@@ -156,7 +155,14 @@
                                                 <h4 class="user" id="user">Gavino Free</h4>
                                                 <h5 class="time" id="time">5 minutes ago</h5>
                                             </div>
-                                            <p id="comment">Sure, I'll give it a try!</p>
+                                            <p id="comment">Harassment can include, but is not limited to:
+                                                <br/>
+                                                - Unwanted sexual advances which may or may not be accompanied by threats or explicit or implicit promises<br/>
+                                                - Making rude, degrading or offensive remarks. Making gestures that seek to intimidate. Engaging in reprisals for having made a complaint under the Harassment Prevention and Resolution Policy. Discrediting the person by spreading malicious gossip or
+                                                rumours, ridiculing him/her, humiliating him/her, calling into question his/her convictions or his/her private life<br/>
+                                                - Setting the person up for failure, name calling in private or in front of others. Isolating the person by distancing him or her from others. Destabilizing the person by making fun of his or her beliefs, values, political and/or religious choices,
+                                                and mocking his or her weak points.
+                                            </p>
                                         </div>
                                     </li>
                                 </ul>
