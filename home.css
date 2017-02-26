@@ -5,6 +5,14 @@
     margin-right: auto;
 }
 
+.slogan
+{
+  margin-left: 20%;
+	margin-right: 5%;
+	font-family: header;
+	color: #86E9BB;
+}
+
 #featuredSim
 {
   margin-left: 40px;
