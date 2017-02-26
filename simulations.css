@@ -18,5 +18,11 @@
   height:500px;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+}
+
+p{
+  margin-left: 8%;
+  padding-bottom: 10px;
+  font-family:header;
 }
