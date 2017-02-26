@@ -14,7 +14,7 @@ p{
 	margin-right: 5%;
 	font-size: medium;
 }
-li{
+li.stats{
 	margin-left: 5%;
 	margin-right: 5%;
 	font-size: medium;
@@ -25,16 +25,4 @@ li{
     margin-left: auto;
     margin-right: auto;
 	font-family: header;
-}
-#fail {
-    position: relative;
-    border: 1px solid black;
-    background-image: url("cups.jpg");
-    background-size: 100% 100%;
-    width: 500px;
-    height: 250px;
-    padding-top: 80px;
-    padding-right: 20px;
-    padding-bottom: 80px;
-    padding-left: 20px;
 }
