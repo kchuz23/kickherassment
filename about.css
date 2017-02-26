@@ -2,7 +2,10 @@ h1{
 	margin-left: 20%;
 	margin-right: 5%;
 	font-family: header;
+<<<<<<< Updated upstream
 	color: #86E9BB;
+=======
+>>>>>>> Stashed changes
 }
 h2{
 	margin-left: 5%;
@@ -12,6 +15,7 @@ h2{
 p{
 	margin-left: 5%;
 	margin-right: 5%;
+<<<<<<< Updated upstream
 	font-size: medium;
 }
 #logo
@@ -19,4 +23,19 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+=======
+	font-family: header;
+}
+#fail {
+    position: relative;
+    border: 1px solid black;
+    background-image: url("cups.jpg");
+    background-size: 100% 100%;
+    width: 500px;
+    height: 250px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+>>>>>>> Stashed changes
 }
