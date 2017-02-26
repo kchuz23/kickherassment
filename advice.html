@@ -10,10 +10,21 @@
 		<link rel="stylesheet" type="text/css" href="advice.css">
 		<script src="advice.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script>  $( function() {
     $( "input" ).checkboxradio();
-  } );</script>
+  } );
+  $(document).ready(function(){
+    $("#bu").click(function(){
+	$("#comment").append("<p></p>")
+	$("#comment").append($("#input").text('test').val());
+	$("#comment").append(":		")
+        $("#comment").append($("#textarea").text('test').val());
+    });
+
+});
+  
+  </script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -47,7 +58,19 @@
     <input type="checkbox" name="checkbox-3" id="checkbox-3">
   </fieldset></div>
   <div id="main">
-  <p></p></div>
+  <p id="comment"></p>
+
+<form id="usrform">
+  Name: <input id="input" type="text" name="usrname" size="30">
+  <button id="bu" type="button" name="Submit">Submit</button>
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform" id="textarea">
+</textarea>
+
+
+</div>
 
     </body>
+	
 </html>
