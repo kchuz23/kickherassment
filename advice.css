@@ -1,0 +1,40 @@
+#sidebar{
+    width: 20%;
+	height:  25%; 
+	border: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #98A3A6;
+	position: absolute;
+	
+}
+
+#main{
+	
+	width: 90%;
+	height:  90%; 
+	left:  200px;
+	border: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #98A3A6;
+	position: absolute;
+	
+}
+
+
+input{
+    width:30px;
+
+    position:relative;
+
+    vertical-align:middle; 
+}
+
+label{  
+    width:150px;       
+	left: 20px;
+    position:relative;
+    display:inline-block;    
+    vertical-align:middle; 
+}
