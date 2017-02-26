@@ -1,12 +1,22 @@
 h1{
-	margin-left: 5%; 
+	margin-left: 20%;
 	margin-right: 5%;
+	font-family: header;
+	color: #86E9BB;
 }
 h2{
-	margin-left: 5%; 
+	margin-left: 5%;
 	margin-right: 5%;
+	font-family: header;
 }
 p{
-	margin-left: 5%; 
+	margin-left: 5%;
 	margin-right: 5%;
+	font-size: medium;
+}
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
