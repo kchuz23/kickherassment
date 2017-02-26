@@ -5,16 +5,18 @@
   color:#EEFFE9;
   font-family: header;
 }
-#UnityObject
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
 #featuredSim
 {
   margin-left: 40px;
   padding-bottom: 10px;
   color:#86E9BB;
   font-family:header;
+}
+.emscripten
+{
+  width:700px;
+  height:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }

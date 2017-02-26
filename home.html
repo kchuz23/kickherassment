@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" href="TemplateData/style.css">
+        <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+        <script src="TemplateData/UnityProgress.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -32,10 +35,23 @@
         <div class="main-div">
             <img id="logo" src="logo.png"></img>
             <h1 id="featuredSim">Featured Simulation</h1>
-            <object id="UnityObject" width="600" height="450" codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
-                <param name="FULL ADRESS TO .UNITY3D FILE " value="NAME OF .unity3d"/>
-                <embed id="UnityEmbed" src="FULL ADDRESS TO .UNITY3D FILE " width="600" height="450" type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x"/>
-            </object>
+            <div>
+                <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+            </div>
+            <script type='text/javascript'>
+                var Module = {
+                    TOTAL_MEMORY: 268435456,
+                    errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+                    compatibilitycheck: null,
+                    backgroundColor: "#222C36",
+                    splashStyle: "Light",
+                    dataUrl: "Release/test.data",
+                    codeUrl: "Release/test.js",
+                    asmUrl: "Release/test.asm.js",
+                    memUrl: "Release/test.mem"
+                };
+            </script>
+            <script src="Release/UnityLoader.js"></script>
         </div>
     </body>
 </html>
